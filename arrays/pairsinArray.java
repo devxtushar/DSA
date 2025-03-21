@@ -11,8 +11,9 @@ public class pairsinArray {
             System.out.println("");
         }
         return;
-        
     }
+
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         int array[] = new int[5];
 
