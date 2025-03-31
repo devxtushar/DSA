@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Basics{
+    @SuppressWarnings("resource")
     public static void main(String args[]){
       // Takes arrays as input
       int prices[] = new int[4];   
