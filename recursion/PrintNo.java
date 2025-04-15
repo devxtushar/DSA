@@ -41,15 +41,15 @@ public class PrintNo {
   
         n = fibonacci(n-1) + fibonacci(n-2);
         return n;
-    }
+    }  
     public static void main(String[] args) {
         int n = 5;
         // printDec(n);
         // printInc(n);
-        System.out.println(factorial(n));
-        System.out.println(naturalNo(n));
-        System.out.println(fibonacci(n));
-
+        // System.out.println(factorial(n));
+        // System.out.println(naturalNo(n));
+        // System.out.println(fibonacci(n));
+        
 
          
 
