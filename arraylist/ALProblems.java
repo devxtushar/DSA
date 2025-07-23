@@ -16,9 +16,6 @@ public class ALProblems {
         }
 
         int max = Integer.MIN_VALUE;
-    
-
-
         
     }
     

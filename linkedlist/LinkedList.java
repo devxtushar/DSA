@@ -25,6 +25,7 @@ public class LinkedList {
         // s3 - head = newNode
         head = newNode;
     }
+
     public void addLast(int data){
         Node newNode = new Node(data);
         size++;
@@ -36,6 +37,7 @@ public class LinkedList {
         tail = newNode;
 
     }
+ 
     public void print(){
         if(head == null){
             System.out.println("LL is empty");
@@ -48,6 +50,10 @@ public class LinkedList {
         }
         System.out.println("null");
     }
+
+
+
+
     public void add(int idx,int data){ //middle - o(n) takes, because I have to find the index in LL but constant time for operations
         //and in array index is known.
         if(idx == 0){
@@ -78,9 +84,10 @@ public class LinkedList {
         }
         int val = head.data;
         head = head.next;
+        size--;
         return val;
     }
-      public int removeLast(){// not working
+      public int removeLast(){
             if(size==0){
             System.out.println("ll is empty");
             return Integer.MIN_VALUE;
@@ -92,7 +99,7 @@ public class LinkedList {
         }
         Node prev= head;
        for(int i=0;i<size-2;i++){
-        prev=prev.next;
+        prev=prev.next;   
        } 
        int val =tail.data;// tail.data
        prev.next=null;

@@ -24,7 +24,7 @@ public class BasicsStack {
         }
         // peek
         public static int peek(){
-        if(isEmpty()) return -1;
+        if(isEmpty()) return -1;    
 
            return list.get(list.size() -1);
         }

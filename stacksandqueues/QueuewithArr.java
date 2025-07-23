@@ -16,7 +16,7 @@ public class QueuewithArr {
        return rear ==-1;
     }
     
-    public static void add(int data){
+    public static void add(int data){ // o(1)
         if(rear == size-1){
             System.out.println("queue is full");
             return;
@@ -24,7 +24,7 @@ public class QueuewithArr {
         rear++;
         arr[rear] = data;
     }
-    public static int remove(){
+    public static int remove(){ // o(n)
         if(isEmpty()){
             System.out.println("empty queue");
             return -1;
