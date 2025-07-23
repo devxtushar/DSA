@@ -1,5 +1,6 @@
 package stacksandqueues;
-
+// It works in FIFO and we can implement it with the array, ll, stack.
+// with array it is of fixed type.
 
 public class QueuewithArr {
     static class Queue {
