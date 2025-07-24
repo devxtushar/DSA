@@ -1,9 +1,10 @@
 package linkedlist;
+
 import java.util.LinkedList;
 
 public class LLJFW {
-    public static void main(String[] args) { 
-        LinkedList<Integer>ll = new LinkedList<>();
+    public static void main(String[] args) {
+        LinkedList<Integer> ll = new LinkedList<>();
         ll.addLast(1);
         ll.addLast(2);
         ll.addFirst(0);
@@ -12,7 +13,6 @@ public class LLJFW {
         ll.removeFirst();
         System.out.println(ll);
 
-        
     }
-    
+
 }
